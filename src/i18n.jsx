@@ -4,14 +4,19 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 
 i18n
-  .use(HttpBackend) // Charge les fichiers JSON
-  .use(LanguageDetector) // Détecte la langue
-  .use(initReactI18next) // Lie à React
+  .use(HttpBackend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
   .init({
-    fallbackLng: 'fr', // Langue par défaut
+    fallbackLng: 'fr',
     debug: true,
+
+    backend: {
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}/translation.json`
+    },
+
     interpolation: {
-      escapeValue: false, // React protège déjà contre les injections XSS
+      escapeValue: false,
     }
   });
 
