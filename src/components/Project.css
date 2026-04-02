@@ -1,0 +1,7 @@
+.section-4 .project article section{
+  transition: transform 0.3s ease;
+}
+
+.section-4 .project article section:hover{
+  transform: translateY(-2px) scale(1.02);
+}

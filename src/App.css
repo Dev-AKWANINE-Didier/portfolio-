@@ -1,0 +1,16 @@
+.floating {
+  animation: floating 2s infinite alternate ease-in-out;
+}
+
+@keyframes floating {
+  from { transform: translateY(0); }
+  to { transform: translateY(-5px); }
+}
+ 
+.floating-reverse {
+    animation: floating-reverse 2s infinite alternate ease-in-out;
+}
+@keyframes floating-reverse {
+  from { transform: translateY(0); }
+  to { transform: translateY(5px); }
+}

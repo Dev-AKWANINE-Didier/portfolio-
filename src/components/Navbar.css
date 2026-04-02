@@ -1,0 +1,86 @@
+#navbar{
+  border-bottom: 1px solid rgba(88, 84, 84, 0.685);
+  transition: background 0.4s, color 0.4s;
+}
+
+#navbar .links li a{
+   transition: background 0.3s;
+}
+
+#navbar .mode ,#navbar .translate ,#navbar .toggle-btn{
+    transition: background 0.3s;
+}
+
+#navbar .theme-icon-hidden{
+  display: none;
+  transition: display 0.3s ;
+}
+
+/* #navbar .links{
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.064);
+  width: 100%;
+  transition: display 0.4s, color 0.4s;
+} */
+
+#navbar .links.showLinks{
+  display: flex;
+}
+
+.translate-section{
+  border: 1px solid rgba(45, 44, 44, 0.299);
+  transition: display 0.4s;
+}
+
+.translate-section div{
+  transition: background 0.3s;
+}
+
+
+/* sm (≥640px) */
+@media (min-width: 640px) {
+
+
+}
+
+/* md (≥768px) */
+@media (min-width: 768px) {
+  /* Styles pour écrans >= 768px */
+  #navbar{
+    padding: 0 2rem;
+  }
+  #navbar .links{
+    display: flex;
+    gap: 0.5rem;
+    position: relative;
+    top: 0;
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+    background-color: transparent; 
+    border: none;
+  }
+
+  #navbar .toggle-btn{
+    display: none;
+  }
+
+}
+
+/* lg (≥1024px) */
+@media (min-width: 1024px) {
+  /* Styles pour écrans >= 1024px */
+}
+
+/* xl (≥1280px) */
+@media (min-width: 1280px) {
+  /* Styles pour écrans >= 1280px */
+}
+
+/* 2xl (≥1536px) */
+@media (min-width: 1536px) {
+  /* Styles pour écrans >= 1536px */
+}
