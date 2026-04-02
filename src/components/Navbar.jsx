@@ -66,7 +66,7 @@ export default function Navbar() {
             </nav>
             {showTranslateSection &&
 
-                <section id="translate-section" className="translate-section flex fixed right-8 top-16 rounded-xl w-28 h-20 items-center justify-center flex-col">
+                <section id="translate-section" className="z-999 backdrop-blur-xl dark:bg-gray-900 translate-section flex fixed right-8 top-16 rounded-xl w-28 h-20 items-center justify-center flex-col">
                     <div className="w-full flex items-center justify-center flex-col">
 
                         <button onClick={() => changerLangue('fr')}

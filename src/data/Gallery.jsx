@@ -1,18 +1,19 @@
-import didier6 from '../assets/didier-6.jpg'
-import didier5 from '../assets/didier-5.jpg'
-import didier7 from '../assets/didier-7.jpg'
-import didierGratuation from '../assets/didier-gratuation.jpg'
-import didierSimeon from '../assets/didier-simeon.jpg'
-import fongolab from '../assets/fongolab.jpg'
-import skynet from '../assets/skynet-bi.jpg'
-import  schFrancDidierTheo from '../assets/schekina-francois-didier-theo.jpg'
-import didier1 from '../assets/didier-1.jpg'
-import jeanDidier from '../assets/jean-didier.jpg'
-import didierFreddy from '../assets/freddy-didier.jpg'
-import didier9 from '../assets/didier-9.jpg'
-import didierEric from '../assets/didier-eric.jpg'
-import didier2 from '../assets/didier-2.jpg'
-import didier3 from '../assets/didier-3.jpg'
+import didier6 from '../assets/didier-6.webp'
+import didier5 from '../assets/didier-5.webp'
+import didier7 from '../assets/didier-7.webp'
+import didierGratuation from '../assets/didier-gratuation.webp'
+import didierSimeon from '../assets/didier-simeon.webp'
+import fongolab from '../assets/fongolab.webp'
+import skynet from '../assets/skynet-bi.webp'
+import  schFrancDidierTheo from '../assets/schekina-francois-didier-theo.webp'
+import didier1 from '../assets/didier-1.webp'
+import jeanDidier from '../assets/jean-didier.webp'
+import didierFreddy from '../assets/freddy-didier.webp'
+import didierNelson from '../assets/didier-nelson.webp'
+import didier9 from '../assets/didier-9.webp'
+import didierEric from '../assets/didier-eric.webp'
+import didier2 from '../assets/didier-2.webp'
+import didier3 from '../assets/didier-3.webp'
 
 export const imageList1 = [
     {
@@ -95,7 +96,7 @@ export const imageList2 = [
 
     {
       name : 'AKWANINE B & Simeon',
-      url : '../src/assets/didier-nelson.jpg',
+      url : didierNelson,
       description : 'Sortie, Uzuri beach',
       alt :'didier-nelson'
     },
