@@ -45,16 +45,16 @@ export default function  Gallery(){
   
     return (
         <>
-        <section className="section-5 w-full px-4 sm:px-8  py-8 transition-colors duration-300 dark:text-gray-100" id="gallery">
+        <section className="section-5 w-full px-4 sm:px-8  py-8 transition-colors duration-300 dark:text-(--white-color--)" id="gallery">
             <header className="flex items-center flex-col w-full mb-8">
-              <h1 className="font-bold text-xl mb-2 bg-linear-to-r from-[#4c11bb] via-[#4c11bb] to-[#9A88F9] bg-clip-text text-transparent">{t("Gallerie")}</h1>
-              <h2 className="font-bold text-4  mb-2sm:mb-4 text-center">{t("Certaines de mes photos")}</h2>
+              <h1 className="font-bold text-xl mb-2 bg-linear-to-r from-(--primary-color--) via-(--secondary-color--) to-(--tertiary-color--) bg-clip-text text-transparent">{t("Gallerie")}</h1>
+              <h2 className="text-sm  mb-2 sm:mb-4 text-center">{t("Certaines de mes photos")}</h2>
             </header>
             <section className="btns items-center justify-center mb-4 w-full ">
                 <article className="flex items-center justify-center gap-4 p-4 flex-col md:flex-row">
                     {/* Bouton Précédent */}
                     <button 
-                      className={`prev p-2 border rounded-full ${index1 === 0 ? 'opacity-30' : 'hover:bg-gray-100 dark:hover:bg-gray-900'}`}
+                      className={`prev p-2 border rounded-full ${index1 === 0 ? 'opacity-30' : 'hover:bg-(--white-color--) dark:hover:bg-(--dark-color--)'}`}
                       onClick={handlePrev1}
                       disabled={index1 === 0}
                     >
@@ -70,14 +70,14 @@ export default function  Gallery(){
                             src={img.url} 
                             alt={img.alt} 
                           />
-                          <p className="text-sm mt-2 dark:text-gray-100 px-2 text-center transition-colors duration-300">{img.description}</p>
+                          <p className="text-sm mt-2 dark:text-(--white-color--) px-2 text-center transition-colors duration-300">{img.description}</p>
                         </div>
                       ))}
                     </section>
 
                     {/* Bouton Suivant */}
                     <button 
-                      className={`next p-2 border rounded-full ${index1 >= imageList1.length - 3 ? 'opacity-30' : 'hover:bg-gray-100 dark:hover:bg-gray-900'}`}
+                      className={`next p-2 border rounded-full ${index1 >= imageList1.length - 3 ? 'opacity-30' : 'hover:bg-(--white-color--) dark:hover:bg-(--dark-color--)'}`}
                       onClick={handleNext1}
                       disabled={index1 >= imageList1.length - 3}
                     >
@@ -89,7 +89,7 @@ export default function  Gallery(){
                 <article className="flex items-center justify-center gap-4 p-4 flex-col md:flex-row w-full">
                     {/* Bouton Précédent */}
                     <button 
-                      className={`prev p-2 border rounded-full ${index2 === 0 ? 'opacity-30' : 'hover:bg-gray-100 dark:hover:bg-gray-900'}`}
+                      className={`prev p-2 border rounded-full ${index2 === 0 ? 'opacity-30' : 'hover:bg-(--white-color--) dark:hover:bg-(--dark-color--)'}`}
                       onClick={handlePrev2}
                       disabled={index2 === 0}
                     >
@@ -105,14 +105,14 @@ export default function  Gallery(){
                             src={img.url} 
                             alt={img.alt} 
                           />
-                          <p className="text-sm mt-2 dark:text-gray-100 px-2 text-center transition-colors duration-300">{img.description}</p>
+                          <p className="text-sm mt-2 dark:text-(--white-color--) px-2 text-center transition-colors duration-300">{img.description}</p>
                         </div>
                       ))}
                     </section>
 
                     {/* Bouton Suivant */}
                     <button 
-                      className={`next p-2 border rounded-full ${index2 >= imageList2.length - 3 ? 'opacity-30' : 'hover:bg-gray-100 dark:hover:bg-gray-900'}`}
+                      className={`next p-2 border rounded-full ${index2 >= imageList2.length - 3 ? 'opacity-30' : 'hover:bg-(--white-color--) dark:hover:bg-(--dark-color--)'}`}
                       onClick={handleNext2}
                       disabled={index2 >= imageList2.length - 3}
                     >

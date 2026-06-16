@@ -1,18 +1,17 @@
-import defaultTheme from 'tailwindcss/defaultTheme';
+
 module.exports = {
-  darkMode : 'class',
+  darkMode: 'class',
   content: [
-    'templates/**/*.html',   // Inclut tous les templates Django
-    './**/*.py',               // Inclut vos fichiers Python (vues, models, etc.)
     'scr/**/*.{js,ts,jsx,tsx}', // Inclut vos sources frontend
   ],
   theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-                Jost: ['Jost','sans-serif'],
-            },
-        },
+    extend: {
+      colors: {
+        primary: 'var(--color-primary--)',
+        secondary: 'var(--color-secondary--)', // Corrigé : 2 tirets
+        tertiary: 'var(--color-tertiary--)'
+      },
     },
+  },
   plugins: [],
 }

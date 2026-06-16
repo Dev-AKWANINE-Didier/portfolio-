@@ -8,6 +8,8 @@ import Project from './components/Project'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
 

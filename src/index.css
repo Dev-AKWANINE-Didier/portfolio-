@@ -3,3 +3,15 @@
 @tailwind utilities;
 @import "tailwindcss";
 @variant dark (&:where(.dark, .dark *));
+
+
+/* les variables de couleur */
+:root {
+    --primary-color--: #4712a8;
+    --secondary-color--: #4c11bb;
+    --tertiary-color--: #9A88F9;
+    --dark-color-- : #111827;
+    --border-color-- : #6B7280;
+    --white-color--: #f9f9f9;
+    --black-color-- : #111111;
+}

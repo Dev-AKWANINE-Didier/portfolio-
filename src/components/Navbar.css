@@ -32,7 +32,6 @@
 
 .translate-section{
   border: 1px solid rgba(45, 44, 44, 0.299);
-  transition: display 0.4s;
 }
 
 .translate-section div{
@@ -60,7 +59,7 @@
     width: 100%;
     flex-direction: row;
     height: 100%;
-    background-color: transparent; 
+    background-color:transparent; 
     border: none;
   }
 
