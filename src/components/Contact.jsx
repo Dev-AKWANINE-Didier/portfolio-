@@ -48,15 +48,7 @@ export default function  Contact (){
                                 <p className="text-[0.8rem]">AKWANINE Didier</p>
                             </a>
                         </section>
-                        <section className="w-full lg:w-[22.5%]  md:w-[45%] border dark:border-(--border-color--) transition-colors duration-300  py-8 rounded-2xl  flex items-center justify-center">
-                            <a href="https://x.com/IrAkwanine/" className="flex flex-col border dark:border-(--border-color--) transition-colors duration-300 items-center gap-2 hover:bg-[#4c11bb] px-4 py-2  rounded-[inherit]">
-                                <div className="py-3 px-4 rounded-full bg-(--black-color--)">
-                                    <i className="bi bi-twitter-x text-[#283D9E]"></i>
-                                </div>
-                                <h1 className="font-bold ">X</h1>
-                                <p className="text-[0.8rem]">AKWANINE Didier</p>
-                            </a>
-                        </section>
+                        
                         <section className="w-full lg:w-[22.5%]  md:w-[45%] border dark:border-(--border-color--) transition-colors duration-300  py-8 rounded-2xl  flex items-center justify-center">
                             <a href="https://www.facebook.com/didier.kasende.adbb/" className="flex border dark:border-(--border-color--) transition-colors duration-300 flex-col items-center gap-2 hover:bg-[#4c11bb] px-4 py-2  rounded-[inherit]">
                                 
